@@ -53,6 +53,18 @@
         </dependency>
         <!-- Protobuf编解码依赖 -->
 
+        <!-- Marshalling 序列化类库 -->
+        <dependency>
+            <groupId>org.jboss.marshalling</groupId>
+            <artifactId>jboss-marshalling</artifactId>
+            <version>2.0.9.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.marshalling</groupId>
+            <artifactId>jboss-marshalling-serial</artifactId>
+            <version>2.0.9.Final</version>
+        </dependency>
+        <!-- Marshalling 序列化类库 -->
 
     </dependencies>
 
