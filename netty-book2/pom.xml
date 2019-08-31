@@ -45,6 +45,13 @@
         </dependency>
         <!-- MessagePack 编解码器开发依赖包 -->
 
+        <!-- Protobuf编解码依赖 -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+        <!-- Protobuf编解码依赖 -->
 
 
     </dependencies>
