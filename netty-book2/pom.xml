@@ -16,6 +16,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <jibx.version>1.3.1</jibx.version>
     </properties>
 
     <dependencies>
@@ -65,6 +67,35 @@
             <version>2.0.9.Final</version>
         </dependency>
         <!-- Marshalling 序列化类库 -->
+
+        <!--JiBx 依赖-->
+        <dependency>
+            <groupId>org.jibx</groupId>
+            <artifactId>jibx-bind</artifactId>
+            <version>${jibx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jibx</groupId>
+            <artifactId>jibx-run</artifactId>
+            <version>${jibx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jibx</groupId>
+            <artifactId>jibx-extras</artifactId>
+            <version>${jibx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jibx</groupId>
+            <artifactId>jibx-schema</artifactId>
+            <version>${jibx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jibx</groupId>
+            <artifactId>jibx-tools</artifactId>
+            <version>${jibx.version}</version>
+        </dependency>
+        <!--JiBx 依赖-->
+
 
     </dependencies>
 
